@@ -1,0 +1,229 @@
+1490067514599	geckodriver	INFO	Listening on 127.0.0.1:36928
+1490067515642	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.MF3KVVK6DuhY
+1490067515643	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1490067515645	geckodriver::marionette	INFO	Connecting to Marionette on localhost:56759
+1490067516562	Marionette	INFO	Listening on port 56759
+JavaScript error: jar:file:///tmp/rust_mozprofile.MF3KVVK6DuhY/extensions/%7B9aad3da6-6c46-4ef0-9109-6df5eaaf597c%7D.xpi!/components/uninstall.js, line 5: TypeError: Cc['@mozilla.org/fuel/application;1'] is undefined
+1490074753190	Marionette	INFO	Listening on port 56759
+JavaScript error: resource://firebugautocompleter/common.jsm, line 355: SyntaxError: missing ] after element list
+JavaScript error: chrome://linkchecker/content/linkcheckerOverlay.js, line 107: TypeError: objDocument.getElementsByTagName(...)[0] is undefined
+JavaScript error: chrome://linkchecker/content/linkcheckerOverlay.js, line 107: TypeError: objDocument.getElementsByTagName(...)[0] is undefined
+JavaScript error: chrome://linkchecker/content/linkcheckerOverlay.js, line 107: TypeError: objDocument.getElementsByTagName(...)[0] is undefined
+JavaScript error: chrome://linkchecker/content/linkcheckerOverlay.js, line 107: TypeError: objDocument.getElementsByTagName(...)[0] is undefined
+JavaScript error: chrome://linkchecker/content/linkcheckerOverlay.js, line 107: TypeError: objDocument.getElementsByTagName(...)[0] is undefined
+JavaScript warning: resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/environment.js, line 15: Proxy.create and Proxy.createFunction are deprecated, use new Proxy instead
+JavaScript error: chrome://linkchecker/content/linkcheckerOverlay.js, line 107: TypeError: objDocument.getElementsByTagName(...)[0] is undefined
+JavaScript error: chrome://linkchecker/content/linkcheckerOverlay.js, line 107: TypeError: objDocument.getElementsByTagName(...)[0] is undefined
+JavaScript error: chrome://linkchecker/content/linkcheckerOverlay.js, line 107: TypeError: objDocument.getElementsByTagName(...)[0] is undefined
+JavaScript error: chrome://linkchecker/content/linkcheckerOverlay.js, line 107: TypeError: objDocument.getElementsByTagName(...)[0] is undefined
+JavaScript error: chrome://linkchecker/content/linkcheckerOverlay.js, line 107: TypeError: objDocument.getElementsByTagName(...)[0].appendChild is undefined
+console.warn: Asynchronous operation was aborted as selection changed.
+JavaScript error: chrome://linkchecker/content/linkcheckerOverlay.js, line 107: TypeError: objDocument.getElementsByTagName(...)[0] is undefined
+JavaScript error: chrome://linkchecker/content/linkcheckerOverlay.js, line 107: TypeError: objDocument.getElementsByTagName(...)[0].appendChild is undefined
+JavaScript error: chrome://browser/content/browser.xul, line 1: TypeError: Firebug.firefinderModel is undefined
+JavaScript error: chrome://browser/content/browser.xul, line 1: TypeError: Firebug.firefinderModel is undefined
+JavaScript error: chrome://browser/content/browser.xul, line 1: TypeError: Firebug.firefinderModel is undefined
+JavaScript error: chrome://linkchecker/content/linkcheckerOverlay.js, line 107: TypeError: objDocument.getElementsByTagName(...)[0] is undefined
+JavaScript error: chrome://linkchecker/content/linkcheckerOverlay.js, line 107: TypeError: objDocument.getElementsByTagName(...)[0] is undefined
+JavaScript error: chrome://linkchecker/content/linkcheckerOverlay.js, line 107: TypeError: objDocument.getElementsByTagName(...)[0] is undefined
+JavaScript error: chrome://linkchecker/content/linkcheckerOverlay.js, line 107: TypeError: objDocument.getElementsByTagName(...)[0] is undefined
+JavaScript error: chrome://linkchecker/content/linkcheckerOverlay.js, line 107: TypeError: objDocument.getElementsByTagName(...)[0] is undefined
+JavaScript error: chrome://linkchecker/content/linkcheckerOverlay.js, line 107: TypeError: objDocument.getElementsByTagName(...)[0] is undefined
+JavaScript error: chrome://linkchecker/content/linkcheckerOverlay.js, line 107: TypeError: objDocument.getElementsByTagName(...)[0] is undefined
+JavaScript error: chrome://linkchecker/content/linkcheckerOverlay.js, line 107: TypeError: objDocument.getElementsByTagName(...)[0] is undefined
+JavaScript error: chrome://linkchecker/content/linkcheckerOverlay.js, line 107: TypeError: objDocument.getElementsByTagName(...)[0] is undefined
+JavaScript error: chrome://linkchecker/content/linkcheckerOverlay.js, line 107: TypeError: objDocument.getElementsByTagName(...)[0] is undefined
+JavaScript error: chrome://linkchecker/content/linkcheckerOverlay.js, line 107: TypeError: objDocument.getElementsByTagName(...)[0] is undefined
+JavaScript error: chrome://linkchecker/content/linkcheckerOverlay.js, line 107: TypeError: objDocument.getElementsByTagName(...)[0] is undefined
+JavaScript error: chrome://linkchecker/content/linkcheckerOverlay.js, line 107: TypeError: objDocument.getElementsByTagName(...)[0] is undefined
+JavaScript error: chrome://linkchecker/content/linkcheckerOverlay.js, line 107: TypeError: objDocument.getElementsByTagName(...)[0] is undefined
+JavaScript error: chrome://linkchecker/content/linkcheckerOverlay.js, line 107: TypeError: objDocument.getElementsByTagName(...)[0] is undefined
+JavaScript error: chrome://linkchecker/content/linkcheckerOverlay.js, line 107: TypeError: objDocument.getElementsByTagName(...)[0] is undefined
+console.warn: Asynchronous operation was aborted as selection changed.
+JavaScript error: chrome://linkchecker/content/linkcheckerOverlay.js, line 107: TypeError: objDocument.getElementsByTagName(...)[0].appendChild is undefined
+JavaScript error: chrome://linkchecker/content/linkcheckerOverlay.js, line 107: TypeError: objDocument.getElementsByTagName(...)[0].appendChild is undefined
+1490075508814	geckodriver	INFO	Listening on 127.0.0.1:47526
+1490075509874	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.eTuad6xTTu63
+1490075509875	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1490075509878	geckodriver::marionette	INFO	Connecting to Marionette on localhost:49792
+1490075510712	Marionette	INFO	Listening on port 49792
+JavaScript warning: resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/environment.js, line 15: Proxy.create and Proxy.createFunction are deprecated, use new Proxy instead
+console.warn: Asynchronous operation was aborted as selection changed.
+1490075631113	geckodriver	INFO	Listening on 127.0.0.1:36279
+1490075632174	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.rRHn85fIqDOw
+1490075632175	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1490075632178	geckodriver::marionette	INFO	Connecting to Marionette on localhost:36642
+1490075633037	Marionette	INFO	Listening on port 36642
+1490076161320	geckodriver	INFO	Listening on 127.0.0.1:40733
+1490076162377	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.u6FjZyoOuGZS
+1490076162378	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1490076162380	geckodriver::marionette	INFO	Connecting to Marionette on localhost:36425
+1490076163231	Marionette	INFO	Listening on port 36425
+JavaScript warning: resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/environment.js, line 15: Proxy.create and Proxy.createFunction are deprecated, use new Proxy instead
+console.warn: Asynchronous operation was aborted as selection changed.
+1490076312719	geckodriver	INFO	Listening on 127.0.0.1:51345
+1490076313780	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.MDpdQPNcr89u
+1490076313781	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1490076313783	geckodriver::marionette	INFO	Connecting to Marionette on localhost:41538
+1490076314595	Marionette	INFO	Listening on port 41538
+JavaScript warning: resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/environment.js, line 15: Proxy.create and Proxy.createFunction are deprecated, use new Proxy instead
+console.warn: Asynchronous operation was aborted as selection changed.
+1490076517859	geckodriver	INFO	Listening on 127.0.0.1:47519
+1490076518915	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.bl9hHtG5yYt0
+1490076518915	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1490076518918	geckodriver::marionette	INFO	Connecting to Marionette on localhost:35371
+1490076519869	Marionette	INFO	Listening on port 35371
+Handler function threw an exception: TypeError: threadActor is null
+Stack: TabActor.prototype._windowReady@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/webbrowser.js:1734:1
+TabActor.prototype._changeTopLevelDocument/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/webbrowser.js:1671:7
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+Line: 1734, column: 1
+console.error: 
+  Handler function threw an exception: TypeError: threadActor is null
+Stack: TabActor.prototype._windowReady@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/webbrowser.js:1734:1
+TabActor.prototype._changeTopLevelDocument/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/webbrowser.js:1671:7
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+Line: 1734, column: 1
+1490076736854	geckodriver	INFO	Listening on 127.0.0.1:39363
+1490076737913	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.zTO4EuBhlQWv
+1490076737914	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1490076737916	geckodriver::marionette	INFO	Connecting to Marionette on localhost:48421
+1490076738768	Marionette	INFO	Listening on port 48421
+1490076985061	geckodriver	INFO	Listening on 127.0.0.1:54560
+1490076986119	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.yHQOUVrZ3Cgg
+1490076986120	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1490076986123	geckodriver::marionette	INFO	Connecting to Marionette on localhost:57421
+1490076986941	Marionette	INFO	Listening on port 57421
+1490077091079	geckodriver	INFO	Listening on 127.0.0.1:43348
+1490077092136	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.tSmfze5n9UQh
+1490077092137	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1490077092140	geckodriver::marionette	INFO	Connecting to Marionette on localhost:44815
+1490077092980	Marionette	INFO	Listening on port 44815
+1490077160974	geckodriver	INFO	Listening on 127.0.0.1:50454
+1490077162031	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.UadGU1Q9a35U
+1490077162032	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1490077162034	geckodriver::marionette	INFO	Connecting to Marionette on localhost:38883
+1490077162871	Marionette	INFO	Listening on port 38883
+1490077276008	geckodriver	INFO	Listening on 127.0.0.1:59645
+1490077277062	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.ESCu3lI0FiuG
+1490077277063	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1490077277066	geckodriver::marionette	INFO	Connecting to Marionette on localhost:58549
+1490077277841	Marionette	INFO	Listening on port 58549
+1490077352109	geckodriver	INFO	Listening on 127.0.0.1:58121
+1490077353166	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.TPoGHkNKe9xA
+1490077353167	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1490077353170	geckodriver::marionette	INFO	Connecting to Marionette on localhost:46514
+1490077353959	Marionette	INFO	Listening on port 46514
+1490077614735	geckodriver	INFO	Listening on 127.0.0.1:39439
+1490077615789	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.fWNRUTghP4Rx
+1490077615790	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1490077615792	geckodriver::marionette	INFO	Connecting to Marionette on localhost:58750
+1490077616606	Marionette	INFO	Listening on port 58750
+1490077766019	geckodriver	INFO	Listening on 127.0.0.1:35391
+1490077767074	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.YjO8bqYERJBz
+1490077767075	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1490077767077	geckodriver::marionette	INFO	Connecting to Marionette on localhost:59681
+1490077767907	Marionette	INFO	Listening on port 59681
+1490077872899	geckodriver	INFO	Listening on 127.0.0.1:49929
+1490077873953	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.DYhDd0kIPhRB
+1490077873954	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1490077873957	geckodriver::marionette	INFO	Connecting to Marionette on localhost:43797
+1490077874770	Marionette	INFO	Listening on port 43797
+1490078048740	geckodriver	INFO	Listening on 127.0.0.1:34313
+1490078049798	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.FQ87kcz1laER
+1490078049799	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1490078049801	geckodriver::marionette	INFO	Connecting to Marionette on localhost:56601
+1490078050613	Marionette	INFO	Listening on port 56601
+1490078094679	geckodriver	INFO	Listening on 127.0.0.1:46626
+1490078095740	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.9PfthE97dckp
+1490078095741	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1490078095744	geckodriver::marionette	INFO	Connecting to Marionette on localhost:52733
+1490078096542	Marionette	INFO	Listening on port 52733
+1490078174120	geckodriver	INFO	Listening on 127.0.0.1:36705
+1490078175177	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.lA7B6U6NHu9l
+1490078175178	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1490078175180	geckodriver::marionette	INFO	Connecting to Marionette on localhost:54496
+1490078176025	Marionette	INFO	Listening on port 54496
+1490078241500	geckodriver	INFO	Listening on 127.0.0.1:35083
+1490078242561	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.BlAi5HIWwPzR
+1490078242562	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1490078242565	geckodriver::marionette	INFO	Connecting to Marionette on localhost:36750
+1490078243354	Marionette	INFO	Listening on port 36750
+1490078556509	geckodriver	INFO	Listening on 127.0.0.1:48107
+1490078557567	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.2rSq3LTkGkI2
+1490078557568	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1490078557570	geckodriver::marionette	INFO	Connecting to Marionette on localhost:56784
+1490078558365	Marionette	INFO	Listening on port 56784
+1490078688302	geckodriver	INFO	Listening on 127.0.0.1:54153
+1490078689360	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.binW6WhmA3cl
+1490078689360	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1490078689363	geckodriver::marionette	INFO	Connecting to Marionette on localhost:55325
+1490078690488	Marionette	INFO	Listening on port 55325
+1490078917618	geckodriver	INFO	Listening on 127.0.0.1:44023
+1490078918673	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.8grIBrDc0vle
+1490078918674	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1490078918677	geckodriver::marionette	INFO	Connecting to Marionette on localhost:45217
+1490078919458	Marionette	INFO	Listening on port 45217
+1490079437211	geckodriver	INFO	Listening on 127.0.0.1:38288
+1490079438270	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.buMknrdHiJS0
+1490079438271	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1490079438274	geckodriver::marionette	INFO	Connecting to Marionette on localhost:47155
+1490079439124	Marionette	INFO	Listening on port 47155
+1490079575490	geckodriver	INFO	Listening on 127.0.0.1:58239
+1490079576548	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.o0vp4cKooOso
+1490079576549	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1490079576552	geckodriver::marionette	INFO	Connecting to Marionette on localhost:54148
+1490079577431	Marionette	INFO	Listening on port 54148
+1490082500665	geckodriver	INFO	Listening on 127.0.0.1:54114
+1490082501753	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.VNrHhRM0SXVL
+1490082501755	geckodriver::marionette	INFO	Starting browser /home/roger/aa/firefox/firefox with args []
+1490082501757	geckodriver::marionette	INFO	Connecting to Marionette on localhost:46148
+
+(firefox:5223): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:5223): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:5223): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:5223): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1490082502604	Marionette	INFO	Listening on port 46148
+1490082503537	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/home/roger/aa/firefox/plugin-container:5284): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/home/roger/aa/firefox/plugin-container:5284): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/home/roger/aa/firefox/plugin-container:5284): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/home/roger/aa/firefox/plugin-container:5284): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1490082579818	geckodriver	INFO	Listening on 127.0.0.1:44546
+1490082580877	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.6YTszW5apgsz
+1490082580878	geckodriver::marionette	INFO	Starting browser /home/roger/aa/firefox/firefox with args []
+1490082580880	geckodriver::marionette	INFO	Connecting to Marionette on localhost:57627
+
+(firefox:5364): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:5364): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:5364): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:5364): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1490082581748	Marionette	INFO	Listening on port 57627
+1490082582695	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/home/roger/aa/firefox/plugin-container:5429): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/home/roger/aa/firefox/plugin-container:5429): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/home/roger/aa/firefox/plugin-container:5429): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/home/roger/aa/firefox/plugin-container:5429): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:5364): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:5364): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1491035413581	geckodriver	INFO	Listening on 127.0.0.1:33574
+1491035414657	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.DWS0AMVzk25k
+1491035414657	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1491035414662	geckodriver::marionette	INFO	Connecting to Marionette on localhost:45435
+1491035415443	Marionette	INFO	Listening on port 45435
