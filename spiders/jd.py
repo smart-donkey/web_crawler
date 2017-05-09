@@ -11,7 +11,8 @@ from web_comments_crawler.items import *
 from selenium.common.exceptions import TimeoutException
 
 max_count = 10
-max_detail_count = 500
+max_detail_count = 20
+max_pages = 3
 
 class JdSpider(scrapy.Spider):
     count = 0
@@ -30,8 +31,8 @@ class JdSpider(scrapy.Spider):
 
     def parse(self, response):
         self._driver.get(response.url)
-        self._driver.set_page_load_timeout(30)
-        self._driver.implicitly_wait(30)
+        # self._driver.set_page_load_timeout(50)
+        # self._driver.implicitly_wait(50)
         # try:
         #     wait = WebDriverWait(self._driver, 20)
         #     element = wait.until(
@@ -55,6 +56,9 @@ class JdSpider(scrapy.Spider):
             #     item["content"] = comment.text
             #     yield item
             detail_urls.append(detail_url)
+            # for test
+            break
+            # end test
         # self._driver.close()
 
         count = 0
@@ -67,6 +71,7 @@ class JdSpider(scrapy.Spider):
             # self.hello(url)
             try:
                 print("crawl detail url: ", url)
+                self._driver.maximize_window()
                 self._driver.get(url)
                 comments = self._driver.find_elements_by_class_name("comment-con")
                 for comment in comments:
@@ -74,17 +79,66 @@ class JdSpider(scrapy.Spider):
                     item["content"] = comment.text
                     items.append(item)
 
-                for it in items:
-                    yield it
+                pages = 0
+                next_button = True
+                print("for loop")
+                while next_button is not None and pages < max_pages:
 
-                count += 1
-                if count >= max_count:
-                    break
+
+                    # comments = self._driver.find_elements_by_class_name("comment-con")
+                    print("get item")
+                    comment_items = self._driver.find_elements_by_class_name("comment-item")
+                    for comment in comment_items:
+                        item = dict()
+                        content = comment.find_element_by_class_name("comment-con")
+                        if content:
+                            item["content"] = content.text
+
+                        user = comment.find_element_by_class_name("user-info")
+                        if user:
+                            item["user_info"] = user.text
+
+                        sprite_praise = comment.find_element_by_class_name("sprite-praise")
+                        sprite_comment = comment.find_element_by_class_name("sprite-comment")
+
+                        if sprite_praise:
+                            item["sprite_praise"] = sprite_praise.text
+
+                        if sprite_comment:
+                            item["sprite_comment"] = sprite_comment.text
+
+                        order_info = comment.find_element_by_class_name("order-info")
+                        if order_info:
+                            date_elements = order_info.find_elements_by_tag_name("span")
+                            if len(date_elements) > 2:
+                                item["date_info"] = date_elements[2].text
+
+                        items.append(item)
+
+                    for it in items:
+                        yield it
+
+                    next_button = self._driver.find_element_by_class_name("ui-pager-next")
+                    print("click next button")
+                    print(next_button)
+                    next_button.click()
+                    time.sleep(5)
+
+                    count += 1
+                    if count >= max_count:
+                         break
+
+                    # if next_button.is_enabled():
+                    pages += 1
+                    # break
             except TimeoutException as ex:
+                print(ex.message)
+            except Exception as ex:
+                print("other error occur.")
                 print(ex.message)
 
 
-        self._driver.close()
+        # self._driver.close()
         # self._driver.quit()
 
     # def hello(self, detail_url):
